@@ -36,11 +36,11 @@ THEN I should see that another GitHub Action triggers and should automatically d
 
 Your GitHub Actions for tests should look similar to the image below:
 
-![GitHub Actions Cypress Test.](./Assets/19-Actions-Cypress-Tests.png)
+![GitHub Actions Cypress Test.](./19-Actions-Cypress-Tests.png)
 
 Your GitHub Actions for deployments should look similar to the image below:
 
-![GitHub Actions Render Deploy.](./Assets/19-Actions-Render-Deploy.png)
+![GitHub Actions Render Deploy.](./19-Actions-Render-Deploy.png)
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ You'll then deploy the application via [Render and MongoDB](https://coding-boot-
 
 Once you see the application has been deployed, you'll navigate to the Settings option and turn off Auto-Deploy.
 
-![Render image of auto deploy and hook](./Assets/19-Render-Settings.png)
+![Render image of auto deploy and hook](./19-Render-Settings.png)
 
 Copy the `Deploy hook` URL as you will need it to properly configure GitHub Actions to deploy to Render.
 
