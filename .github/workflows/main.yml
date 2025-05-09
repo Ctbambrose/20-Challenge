@@ -8,6 +8,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - name: test
+        run: echo "Hello World!"
       - name: Checkout code
         uses: actions/checkout@v1
       - name: Use Node.js 21.x
